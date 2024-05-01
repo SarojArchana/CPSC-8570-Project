@@ -28,4 +28,4 @@ Testing and running the code is straightforward, giving users the flexibility to
     - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NIDS.
 
 ## Synthetic Data
-The Folder Synthetic_data contains the colab notebook for to generate syntheic data using TimeGAN.The file TimeGAN_Synthetic_data.ipynb contains the code demonstrate the Synthetic data genration on dummy stock data. code_xNIDS_mainf_TimeGAN_Synthetic_data.ipynb is used for genrating the syntheic data for the xNIDS. Once the synthetic data is genrated we can use this addinational data in explanation.py .
+The Folder Synthetic_data contains the colab notebook for to generate syntheic data using TimeGAN.The file TimeGAN_Synthetic_data.ipynb contains the code demonstrate the Synthetic data genration on dummy stock data. code_xNIDS_mainf_TimeGAN_Synthetic_data.ipynb is used for genrating the syntheic data for the xNIDS. Once the synthetic data is genrated we can use this addinational data in explanation.py.
