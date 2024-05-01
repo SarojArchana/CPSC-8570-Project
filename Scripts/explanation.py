@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1C8GW5VHJnc-QEGUiyTFIMrBLIURAvfjZ
 """
 
-
 import random
 import matplotlib.pyplot as plt
 import numpy as np
