@@ -34,21 +34,5 @@ Testing and running the code is straightforward, giving users the flexibility to
     - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based DL-NIDS
     - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NIDS.
 
-## Contribute
-
-Contributions are always welcome! 
-
-## Citation & Paper
-
-
-The results of this project was published in the paper entitled "xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" in the USENIX Security 2023. If you want to cite our paper in your work, please use the following BibTeX entry.
-
-```
-@inproceedings{wei2023xnids,
- title = {{xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses}},
- author = {Wei, Feng and Li, Hongda and Zhao, Ziming and Hu, Hongxin},
- booktitle = {{USENIX Security}},
- year = {2023},
-}
-
-```
+## Synthetic Data
+The Folder Synthetic_data contains the colab notebook for to generate syntheic data using TimeGAN.The file TimeGAN_Synthetic_data.ipynb contains the code demonstrate the Synthetic data genration on dummy stock data. code_xNIDS_mainf_TimeGAN_Synthetic_data.ipynb is used for genrating the syntheic data for the xNIDS. Once the synthetic data is genrated we can use this addinational data in explanation.py .
